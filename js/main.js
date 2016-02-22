@@ -11,8 +11,6 @@ $(document).ready(function(){
 //correct capitalisation to lowercase to match if / if else statements
         city = city.toLowerCase();
         
-        
-     
 // if the user inputs New York / New York City / NYC change the body class to 'nyc.jpg'
         if (city == 'new york' || city == 'new york city' || city == 'nyc') {
         $('body').css('background-image','url(images/nyc.jpg');
@@ -33,11 +31,7 @@ $(document).ready(function(){
         } else if (city == 'sydney' || city == 'syd') {
         $('body').css('background-image','url(images/sydney.jpg)');
  
-                
         }   
-
-
-
 });
 });
     
