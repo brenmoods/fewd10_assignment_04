@@ -9,7 +9,7 @@ $(document).ready(function(){
         var city = $('#city-type').val();
         
 //correct capitalisation to lowercase to match if / if else statements
-        var city = city.toLowerCase();
+        city = city.toLowerCase();
         
         
      
